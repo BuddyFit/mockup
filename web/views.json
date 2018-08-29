@@ -1,0 +1,248 @@
+{
+    "signin": {
+        "title": "Page d'accueil",
+        "image": "images/Accueil.png",
+        "links": [
+            {
+                "href": "blog_accueil",
+                "x": 286,
+                "y": 80,
+                "width": 50,
+                "height": 30
+            },
+            {
+                "href": "evenement_accueil",
+                "x": 345,
+                "y": 80,
+                "width": 90,
+                "height": 30
+            },
+            {
+                "href": "recette_accueil",
+                "x": 445,
+                "y": 80,
+                "width": 70,
+                "height": 30
+            },
+            {
+                "href": "suivi_poids",
+                "x": 467,
+                "y": 390,
+                "width": 173,
+                "height": 56
+            },
+            {
+                "href": "suivi_alimentation",
+                "x": 467,
+                "y": 450,
+                "width": 173,
+                "height": 116
+            },
+            {
+                "href": "accueil_buddy",
+                "x": 650,
+                "y": 80,
+                "width": 63,
+                "height": 30
+            },
+            {
+                "href": "inscription",
+                "x": 804,
+                "y": 57,
+                "width": 63,
+                "height": 60
+            }
+        ]
+    },
+    "blog_accueil": {
+      "title": "Articles de blog",
+      "image": "images/Blog1.png",
+      "links": [
+          {
+              "href": "blog_detail",
+              "x": 150,
+              "y": 255,
+              "width": 580,
+              "height": 170
+          },
+          {
+              "href": "signin",
+              "x": 203,
+              "y": 93,
+              "width": 65,
+              "height": 30
+          }
+      ]
+    },
+    "blog_detail": {
+      "title": "Article de blog",
+      "image": "images/Blog2.png",
+      "links": [
+        {
+            "href": "signin",
+            "x": 190,
+            "y": 90,
+            "width": 65,
+            "height": 30
+        }
+      ]
+    },
+    "evenement_accueil": {
+        "title": "Evènements",
+        "image": "images/Evenement1.png",
+        "links": [
+            {
+                "href": "evenement_detail",
+                "x": 110,
+                "y": 295,
+                "width": 700,
+                "height": 100
+            },
+            {
+                "href": "signin",
+                "x": 214,
+                "y": 64,
+                "width": 65,
+                "height": 30
+            }
+        ]
+    },
+    "evenement_detail": {
+        "title": "Evènement",
+        "image": "images/Evenement2.png",
+        "links": [
+            {
+                "href": "signin",
+                "x": 180,
+                "y": 57,
+                "width": 65,
+                "height": 30
+            }
+        ]
+    },
+    "recette_accueil": {
+        "title": "Recettes",
+        "image": "images/Recette1.png",
+        "links": [
+            {
+                "href": "recette_detail",
+                "x": 163,
+                "y": 235,
+                "width": 245,
+                "height": 95
+            },
+            {
+                "href": "signin",
+                "x": 178,
+                "y": 85,
+                "width": 65,
+                "height": 30
+            }
+        ]
+    },
+    "recette_detail": {
+        "title": "Recette",
+        "image": "images/Recette2.png",
+        "links": [
+            {
+                "href": "signin",
+                "x": 163,
+                "y": 92,
+                "width": 65,
+                "height": 30
+            }
+        ]
+    },
+    "suivi_poids": {
+      "title": "Suivi du poids",
+      "image": "images/Suivi1.png",
+      "links": [
+          {
+              "href": "signin",
+              "x": 205,
+              "y": 68,
+              "width": 65,
+              "height": 30
+          }
+      ]
+    },
+    "suivi_alimentation": {
+      "title": "Suivi de l'alimentation",
+      "image": "images/Suivi2.png",
+      "links": [
+          {
+              "href": "signin",
+              "x": 178,
+              "y": 67,
+              "width": 65,
+              "height": 30
+          }
+      ]
+    },
+    "accueil_buddy": {
+      "title": "Recherche de Buddy",
+      "image": "images/Buddy1.png",
+      "links": [
+          {
+              "href": "signin",
+              "x": 205,
+              "y": 78,
+              "width": 65,
+              "height": 30
+          },
+          {
+              "href": "recherche_buddy",
+              "x": 333,
+              "y": 550,
+              "width": 283,
+              "height": 39
+          }
+      ]
+    },
+    "recherche_buddy": {
+        "title": "Rechercher un buddy",
+        "image": "images/Buddy2.png",
+        "links": [
+            {
+                "href": "signin",
+                "x": 181,
+                "y": 92,
+                "width": 65,
+                "height": 30
+            }
+        ]
+    },
+    "inscription": {
+      "title": "Page d'inscription",
+      "image": "images/Inscription.png",
+      "links": [
+          {
+              "href": "signin",
+              "x": 181,
+              "y": 126,
+              "width": 65,
+              "height": 30
+          },
+          {
+              "href": "connexion",
+              "x": 433,
+              "y": 615,
+              "width": 90,
+              "height": 30
+          }
+      ]
+    },
+    "connexion": {
+      "title": "Page d'inscription",
+      "image": "images/Connexion.png",
+      "links": [
+          {
+              "href": "signin",
+              "x": 191,
+              "y": 95,
+              "width": 65,
+              "height": 30
+          }
+      ]
+    }
+}

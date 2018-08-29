@@ -1,0 +1,27 @@
+.main {
+    width: 360px;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-family: arial;
+}
+
+.view {
+    position: relative;
+}
+
+.view > img {
+    width: 360px;
+}
+
+.link {
+    position: absolute;
+    background: rgba(0, 0, 255, 0.05);
+}
+
+.link:hover {
+    background: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
